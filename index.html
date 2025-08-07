@@ -6,6 +6,10 @@
     <title>Arghya Adhikary - Cybersecurity Engineer & AI Enthusiast</title>
     <meta name="description" content="Cybersecurity Engineer and AI Enthusiast specializing in network defense, ethical hacking, and AI development.">
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    
     <!-- External CSS Dependencies -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -55,8 +59,19 @@
     <nav class="fixed top-0 left-0 right-0 z-40 glass-effect border-b border-gray-200/20 dark:border-gray-700/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
-                <a href="#home" class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                    Arghya Adhikary
+                <a href="#home" class="flex items-center space-x-3 group">
+                    <!-- Custom Logo -->
+                    <div class="relative">
+                        <img src="assets/favicon.png" alt="Arghya Adhikary Logo" 
+                             class="w-10 h-10 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 object-contain bg-white dark:bg-gray-800 p-1">
+                        
+                        <!-- Animated ring -->
+                        <div class="absolute inset-0 rounded-xl border-2 border-primary-400 opacity-0 group-hover:opacity-100 animate-ping"></div>
+                    </div>
+                    <!-- Name -->
+                    <span class="text-xl font-bold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Arghya Adhikary
+                    </span>
                 </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="nav-link">Home</a>
